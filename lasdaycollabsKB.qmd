@@ -1,0 +1,17 @@
+---
+title: "collabsGIT"
+format: html
+editor: visual
+---
+
+## Palmer Penguins
+
+```{r}
+library(palmerpenguins)
+library(tidyverse)
+```
+
+```{r}
+ggplot(data = penguins, aes( x = species, y = body_mass_g)) +
+  geom_point()
+```
